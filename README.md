@@ -1,31 +1,16 @@
 
-# Análise de Logs do Nginx
+# Server analyses through CLI
 
-Projeto desenvolvido como parte dos projetos práticos do [roadmap.sh](https://roadmap.sh/projects/nginx-log-analyser).
+Este repositório contém utilitários de linha de comando (CLI) desenvolvidos como parte do roadmap de DevOps.
 
-## Objetivo
+## Projetos inclusos
 
-Script Shell que analisa um arquivo de log do Nginx e exibe:
+- **[Nginx Log Analyser](nginx-log-analyser/):** Ferramenta para extrair estatísticas de logs de acesso do Nginx.
+- **[Server Performance Stats](server-performance-stats/):** (Em construção) Monitoramento de recursos do sistema.
+- **[Log Archive Tool](log-archive-tool/):** (Planejado) Ferramenta de arquivamento e limpeza de logs.
 
-- Top 5 IPs com mais requisições
-- Top 5 caminhos mais acessados
-- Top 5 códigos de status HTTP
-- Top 5 user agents
-
-## Tecnologias
-
-- Shell Script (Bash)
-- Comandos: `awk`, `sort`, `uniq`, `head`, `grep`
-
-## Como executar
-Para executar o código, abra um terminal (cmd, PowerShell por exemplo) e execute:
-```bash
-chmod +x ./ShellScript/analises.sh
-
-e então:
-
-./ShellScript/analises.sh
-```
+## Como contribuir
+Sinta-se à vontade para explorar os scripts dentro de cada diretório. Para executar, navegue até a pasta do projeto desejado e execute o script correspondente.
 
 ## Estrutura do projeto
 
