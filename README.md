@@ -15,9 +15,15 @@ Sinta-se à vontade para explorar os scripts dentro de cada diretório. Para exe
 ## Estrutura do projeto
 
 ```
-├── logs/
-│   └── nginx-access.log
-└── ShellScript/
-    └── analises.sh
+Server-analyses-through-cli/
+├── NginxLogAnalyser/   
+│   ├── ShellScript/
+│   |    └── analises.sh
+|   ├── logs/
+├── ServerPerformanceStats/
+│   ├── Content
+│   └── ShellScript/
+│       └── StatusServidor.sh
+└── README.md
 ```
 
